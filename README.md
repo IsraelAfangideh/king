@@ -1,12 +1,14 @@
 **KingsCrowd Take Home**
 
 ****External Dependencies:****
+
 * Nuxt
 * Tailwind
 * Tan Stack
-* Shadcn - vue
+* Headless UI
 
 ******Testing******
+
 * Vitest
 * Vue Test Utils
 * Playwright
