@@ -51,7 +51,7 @@ export default defineEventHandler(async (event) => {
             }))
         }
 
-        const json = await res.json()
+        const json = await res.json();
 
         if (!json?.data?.result) {
             return sendError(event, createError({

@@ -11,3 +11,8 @@
 
 * Playwright
 * a11y
+
+******AI USE******
+
+* raises.ts
+    * Gave the API response as a prompt and asked it to generate the typescript types
