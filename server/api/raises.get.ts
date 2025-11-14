@@ -13,9 +13,8 @@ const FILTERS = [
 // noinspection JSUnusedGlobalSymbols
 export default defineEventHandler(async (event) => {
     try {
-        const config = useRuntimeConfig()
-        const apiKey = config.kingsApiKey;
-        const base = config.kingsApiBase;
+        const apiKey = process.env.KINGS_API_KEY;
+        const base = process.env.KINGS_API_BASE;
 
         if (!apiKey || !base) {
             return sendError(event, createError({
