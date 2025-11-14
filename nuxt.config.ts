@@ -2,6 +2,5 @@
 export default defineNuxtConfig({
     compatibilityDate: '2025-07-15',
     devtools: {enabled: true},
-    modules: ['@nuxtjs/tailwindcss'],
-    css: ['~assets/css/tailwind.css']
+    css: ['/Users/israelafangideh/Documents/scry/assets/css/tailwind.css']
 })
